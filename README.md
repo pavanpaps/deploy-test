@@ -33,4 +33,4 @@ Command to run the app.
 2. Copy Dockerfile contents into a new Dockerfile
 3. Build the image by <code>docker build -t my-node-app .</code>
 4. Run the image by using <code>docker run -p 3000:3000 my-node-app</code>
- 
+5. Copy Public IP address (ex: 54.67.121.190:3000) or use http:localhost:3000 to view result
