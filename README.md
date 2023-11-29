@@ -27,3 +27,10 @@ This line sets the default user for the container to `node`. This is to prevent 
 **CMD ["node","app.js"]**
 
 Command to run the app.
+
+# Usage
+1. <code>git clone https://github.com/eMahtab/node-express-hello-world </code>
+2. Copy Dockerfile contents into a new Dockerfile
+3. Build the image by <code>docker build -t my-node-app .</code>
+4. Run the image by using <code>docker run -p 3000:3000 my-node-app</code>
+ 
